@@ -1,0 +1,32 @@
+name: Profile Auto-Update
+
+# Bumps the ?v= cache-busting query param on every local SVG reference in
+# README.md once a week, so GitHub's aggressive image cache never serves a
+# stale animated banner/lanyard. Also gives your contribution graph a
+# harmless weekly commit so the "Actions" tab stays green.
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"   # every Monday 03:00 UTC
+  workflow_dispatch: {}
+
+jobs:
+  bump-cache:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Bump ?v= query params in README.md
+        run: |
+          WEEK=$(date +%Y%V)
+          sed -i -E "s/(assets\/[^\"']+\.svg)\?v=[0-9]+/\1?v=${WEEK}/g" README.md
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: weekly cache-bust for profile assets"
+          git push

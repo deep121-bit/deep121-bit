@@ -1,0 +1,43 @@
+<svg width="600" height="220" viewBox="0 0 600 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="termRound"><rect width="600" height="220" rx="14"/></clipPath>
+    <clipPath id="line1Clip">
+      <rect x="0" y="0" width="0" height="30">
+        <animate attributeName="width" values="0;330;330;330;0" keyTimes="0;0.2;0.45;0.9;1" dur="6s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#termRound)">
+    <rect width="600" height="220" fill="#0D1117"/>
+    <rect width="600" height="40" fill="#161B22"/>
+    <circle cx="24" cy="20" r="6" fill="#FF5F56"/>
+    <circle cx="46" cy="20" r="6" fill="#FFBD2E"/>
+    <circle cx="68" cy="20" r="6" fill="#27C93F"/>
+    <text x="300" y="25" text-anchor="middle" font-family="Consolas, monospace" font-size="13" fill="#B0BEC5">deepak@dev: ~</text>
+
+    <g font-family="Consolas, monospace" font-size="20" fill="#00E5FF">
+      <g clip-path="url(#line1Clip)">
+        <text x="24" y="85">$ whoami</text>
+      </g>
+      <rect x="24" y="65" width="11" height="24" fill="#00E5FF">
+        <animate attributeName="x" values="24;190" dur="6s" repeatCount="indefinite" keyTimes="0;1"/>
+        <animate attributeName="opacity" values="1;1;0;0;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <text x="24" y="125" font-family="Consolas, monospace" font-size="18" fill="#FFFFFF" opacity="0">
+      Deepak Maurya — Data &amp; AI
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.45;0.5;0.9;1" dur="6s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="24" y="160" font-family="Consolas, monospace" font-size="18" fill="#7C3AED" opacity="0">
+      $ status --current
+      <animate attributeName="opacity" values="0;0;0;1;1;0" keyTimes="0;0.5;0.55;0.6;0.9;1" dur="6s" repeatCount="indefinite"/>
+    </text>
+    <text x="24" y="190" font-family="Consolas, monospace" font-size="18" fill="#FF4D8D" opacity="0">
+      Open to Data Analyst / AI Engineer roles
+      <animate attributeName="opacity" values="0;0;0;0;1;1;0" keyTimes="0;0.6;0.65;0.7;0.75;0.9;1" dur="6s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <rect x="1" y="1" width="598" height="218" rx="14" fill="none" stroke="#7C3AED55" stroke-width="1.5"/>
+</svg>

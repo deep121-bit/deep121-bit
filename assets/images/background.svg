@@ -1,0 +1,26 @@
+<svg width="1280" height="200" viewBox="0 0 1280 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="bgGrid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#7C3AED22" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="fade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="200" fill="#0D1117"/>
+  <rect width="1280" height="200" fill="url(#bgGrid)"/>
+  <rect width="1280" height="200" fill="url(#fade)"/>
+  <circle cx="150" cy="60" r="2" fill="#00E5FF" opacity="0.5">
+    <animate attributeName="cy" values="60;30;60" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="500" cy="120" r="2.5" fill="#FF4D8D" opacity="0.5">
+    <animate attributeName="cy" values="120;90;120" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="900" cy="50" r="2" fill="#7C3AED" opacity="0.5">
+    <animate attributeName="cy" values="50;20;50" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1150" cy="140" r="3" fill="#00E5FF" opacity="0.4">
+    <animate attributeName="cy" values="140;110;140" dur="6.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>
