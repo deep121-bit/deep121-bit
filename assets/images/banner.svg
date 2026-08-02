@@ -12,49 +12,146 @@
       <animate attributeName="x1" values="0%;100%;0%" dur="6s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="100%;200%;100%" dur="6s" repeatCount="indefinite"/>
     </linearGradient>
+    <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#00E5FF"/>
+    </linearGradient>
     <radialGradient id="avatarGlow" cx="50%" cy="50%" r="50%">
       <stop offset="70%" stop-color="#7C3AED00"/>
       <stop offset="100%" stop-color="#00E5FF"/>
     </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#7C3AED22" stroke-width="1"/>
+    </pattern>
     <clipPath id="roundedBanner"><rect width="1280" height="720" rx="28"/></clipPath>
     <clipPath id="avatarClip"><circle cx="1080" cy="230" r="110"/></clipPath>
+    <clipPath id="typeClip">
+      <rect x="0" y="0" width="0" height="40">
+        <animate attributeName="width" values="0;430;430;430" keyTimes="0;0.25;0.9;1" dur="8s" begin="0.2s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
   </defs>
 
   <g clip-path="url(#roundedBanner)">
-    <!-- Background -->
     <rect width="1280" height="720" fill="url(#bgGrad)"/>
+    <rect width="1280" height="720" fill="url(#grid)"/>
 
-    <!-- Avatar glow ring -->
+    <!-- floating particles -->
+    <circle cx="120" cy="90" r="2" fill="#00E5FF" opacity="0.6">
+      <animate attributeName="cy" values="90;55;90" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="220" cy="600" r="2.5" fill="#FF4D8D" opacity="0.5">
+      <animate attributeName="cy" values="600;560;600" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="60" cy="400" r="2" fill="#7C3AED" opacity="0.5">
+      <animate attributeName="cy" values="400;360;400" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1200" cy="650" r="3" fill="#00E5FF" opacity="0.4">
+      <animate attributeName="cy" values="650;610;650" dur="6.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="900" cy="500" r="140" fill="#7C3AED" opacity="0.05">
+      <animate attributeName="r" values="120;160;120" dur="7s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- avatar glow ring + image -->
     <circle cx="1080" cy="230" r="118" fill="url(#avatarGlow)" opacity="0.5">
       <animate attributeName="r" values="112;122;112" dur="2.6s" repeatCount="indefinite"/>
     </circle>
-
-    <!-- Avatar image (local path) -->
-    <image href="assets/images/avatar.png" 
-           x="970" y="120" 
-           width="220" height="220"
-           clip-path="url(#avatarClip)" 
-           preserveAspectRatio="xMidYMid slice"/>
+    <image href="../images/avatar.png" x="970" y="120" width="220" height="220"
+           clip-path="url(#avatarClip)" preserveAspectRatio="xMidYMid slice"/>
     <circle cx="1080" cy="230" r="110" fill="none" stroke="#00E5FF" stroke-width="3"/>
+    <!-- hologram scan sweep clipped to avatar -->
+    <g clip-path="url(#avatarClip)">
+      <rect x="970" y="120" width="220" height="30" fill="#00E5FF" opacity="0.35">
+        <animate attributeName="y" values="120;340;120" dur="3.5s" repeatCount="indefinite"/>
+      </rect>
+    </g>
 
-    <!-- Greeting -->
+    <!-- terminal dots -->
+    <circle cx="45" cy="45" r="7" fill="#FF5F56"/>
+    <circle cx="70" cy="45" r="7" fill="#FFBD2E"/>
+    <circle cx="95" cy="45" r="7" fill="#27C93F"/>
+
+    <!-- "Hi 👋" -->
     <text x="45" y="105" font-family="Consolas, monospace" font-size="30" fill="#B0BEC5">Hi 👋, I'm</text>
 
     <!-- Name -->
-    <text x="45" y="175" font-family="'Brush Script MT', cursive" font-size="64" font-weight="bold" fill="url(#nameGrad)">
+    <text x="45" y="175" font-family="'Brush Script MT', cursive, sans-serif" font-size="64" font-weight="bold" fill="url(#nameGrad)" opacity="0">
       Deepak Maurya
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3;0.5;1" dur="8s" repeatCount="indefinite"/>
     </text>
 
-    <!-- Role -->
-    <text x="45" y="225" font-family="Consolas, monospace" font-size="26" fill="#00E5FF">&gt; Data Analyst / AI Engineer</text>
+    <!-- typing terminal cycling roles -->
+    <g font-family="Consolas, monospace" font-size="26" fill="#00E5FF">
+      <g clip-path="url(#typeClip)">
+        <text x="45" y="225">&gt; Data Analyst / AI Engineer</text>
+      </g>
+      <rect x="45" y="203" width="12" height="27" fill="#00E5FF">
+        <animate attributeName="x" values="45;475" dur="8s" begin="0.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;1;0;0;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
 
-    <!-- Tagline -->
+    <!-- tagline -->
     <rect x="45" y="255" width="620" height="55" rx="10" fill="#ffffff08" stroke="#7C3AED44"/>
     <text x="60" y="290" font-family="Consolas, monospace" font-size="18" fill="#B0BEC5">
       "Building Intelligent Systems with Data &amp; AI"
     </text>
+
+    <!-- tech pills -->
+    <g font-family="Consolas, monospace" font-size="17" fill="#0D1117" font-weight="bold">
+      <g><rect x="45" y="325" width="88" height="32" rx="16" fill="url(#pillGrad)" opacity="0">
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.02;0.15" dur="8s" repeatCount="indefinite" fill="freeze"/></rect>
+        <text x="63" y="347" opacity="0">Python<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.02;0.15" dur="8s" repeatCount="indefinite" fill="freeze"/></text></g>
+      <g><rect x="140" y="325" width="65" height="32" rx="16" fill="url(#pillGrad)" opacity="0">
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.05;0.18" dur="8s" repeatCount="indefinite" fill="freeze"/></rect>
+        <text x="156" y="347" opacity="0">SQL<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.05;0.18" dur="8s" repeatCount="indefinite" fill="freeze"/></text></g>
+      <g><rect x="212" y="325" width="90" height="32" rx="16" fill="url(#pillGrad)" opacity="0">
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.08;0.21" dur="8s" repeatCount="indefinite" fill="freeze"/></rect>
+        <text x="228" y="347" opacity="0">Power BI<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.08;0.21" dur="8s" repeatCount="indefinite" fill="freeze"/></text></g>
+      <g><rect x="309" y="325" width="130" height="32" rx="16" fill="url(#pillGrad)" opacity="0">
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.11;0.24" dur="8s" repeatCount="indefinite" fill="freeze"/></rect>
+        <text x="325" y="347" opacity="0">Machine Learning<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.11;0.24" dur="8s" repeatCount="indefinite" fill="freeze"/></text></g>
+      <g><rect x="446" y="325" width="115" height="32" rx="16" fill="url(#pillGrad)" opacity="0">
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.14;0.27" dur="8s" repeatCount="indefinite" fill="freeze"/></rect>
+        <text x="462" y="347" opacity="0">Generative AI<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.14;0.27" dur="8s" repeatCount="indefinite" fill="freeze"/></text></g>
+    </g>
+
+    <!-- buttons -->
+    <g font-family="Consolas, monospace" font-size="16" font-weight="bold">
+      <g>
+        <rect x="45" y="400" width="150" height="44" rx="10" fill="#7C3AED"/>
+        <text x="120" y="427" text-anchor="middle" fill="#FFFFFF">GitHub</text>
+      </g>
+      <g>
+        <rect x="205" y="400" width="150" height="44" rx="10" fill="none" stroke="#00E5FF" stroke-width="2"/>
+        <text x="280" y="427" text-anchor="middle" fill="#00E5FF">LinkedIn</text>
+      </g>
+      <g>
+        <rect x="365" y="400" width="150" height="44" rx="10" fill="none" stroke="#FF4D8D" stroke-width="2"/>
+        <text x="440" y="427" text-anchor="middle" fill="#FF4D8D">Email</text>
+      </g>
+    </g>
+
+    <!-- bottom divider + stat strip -->
+    <rect x="45" y="470" width="1190" height="1" fill="#7C3AED33"/>
+    <g font-family="Consolas, monospace" font-size="15" fill="#B0BEC5">
+      <text x="45" y="500">📍 Delhi, India</text>
+      <text x="230" y="500">🎓 MCA @ Chandigarh University</text>
+      <text x="560" y="500">💼 Open to Data Analyst / AI Engineer roles</text>
+    </g>
+
+    <!-- full-width scanner sweep -->
+    <rect x="0" y="0" width="1280" height="55" fill="url(#nameGrad)" opacity="0.08">
+      <animate attributeName="y" values="-55;720" dur="3.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- one-time hologram reveal -->
+    <rect x="0" y="0" width="1280" height="720" fill="#0D1117">
+      <animate attributeName="height" values="720;0" dur="1.6s" fill="freeze"/>
+    </rect>
   </g>
 
-  <!-- Border -->
   <rect x="1" y="1" width="1278" height="718" rx="28" fill="none" stroke="#7C3AED55" stroke-width="2"/>
 </svg>
