@@ -252,7 +252,7 @@ NLP classifier that flags likely-fake news articles from headline and body text.
   <img src="https://github-profile-trophy.vercel.app/?username=deep121-bit&theme=radical&no-frame=true&row=1&column=7">
 </p>
 
-![Certifications](https://img.shields.io/badge/Certifications-3-7C3AED?style=for-the-badge)
+![Certifications](https://img.shields.io/badge/Certifications-4-7C3AED?style=for-the-badge)
 ![Simulations](https://img.shields.io/badge/Job_Simulations-Deloitte_%7C_TCS-00E5FF?style=for-the-badge)
 
 ---
@@ -273,6 +273,7 @@ NLP classifier that flags likely-fake news articles from headline and body text.
 <!-- 10. CERTIFICATIONS -->
 ## 📜 Certifications
 
+- 🎓 **[Generative AI Skills for Data Scientists](https://courses.ducatindia.skillsnetwork.site/certificates/41ee7cad57374e37b28a39586edf1ed1)** — IBM SkillsNetwork (DUCAT India), July 2026
 - 🎓 **Microsoft Career Essentials in Data Analysis** — Microsoft / LinkedIn Learning
 - 🎓 **Deloitte Data Analytics Job Simulation** — Forage
 - 🎓 **TCS Data Analytics Job Simulation** — Forage
