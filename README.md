@@ -1,468 +1,299 @@
+<!-- 1. HERO BANNER -->
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/images/banner.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="assets/images/banner-light.svg?v=1">
+  <img alt="Deepak Maurya banner" src="assets/images/banner.svg?v=1" width="100%">
+</picture>
+
+<br/>
+
+<img src="assets/animations/lanyard.svg?v=1" alt="Deepak Maurya ID badge" width="220">
+
+<br/><br/>
+
+![Profile views](https://komarev.com/ghpvc/?username=deep121-bit&color=7C3AED&style=flat-square&label=Profile+Views)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github)](https://github.com/deep121-bit)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/YOUR-LINKEDIN)
+[![Email](https://img.shields.io/badge/Email-Contact-FF4D8D?style=flat-square&logo=gmail&logoColor=white)](mailto:your-email@example.com)
+
+</div>
+
 ---
 
-# 🚀 Featured Projects
+<!-- 2. INTRODUCTION -->
+## 👋 Hi, I'm Deepak Maurya
 
-<table>
-<tr>
+```text
+> Data Analyst
+> Data Scientist
+> AI Engineer
+> Generative AI Developer
+```
 
-<td width="50%" valign="top">
+---
 
-### 🏥 HIMS – Hospital Information Management System
+<!-- 3. ANIMATED TERMINAL -->
+## 💻 Terminal
 
-<img src="assets/screenshots/hims.png" width="100%" alt="HIMS Screenshot"/>
+<div align="center">
+<img src="assets/animations/terminal.svg?v=1" alt="terminal: whoami, loading skills" width="560">
+</div>
 
-A complete Hospital Information Management System for managing patient records, appointments, billing, and administrative workflows.
+```text
+$ whoami
+Deepak Maurya
 
-**✨ Key Features**
-- Patient Registration
-- Appointment Scheduling
-- Billing Management
-- Doctor Dashboard
-- Medical Records
+Loading Skills...
+██████████████████ 100%
 
-**🛠 Tech Stack**
+✔ Python
+✔ SQL
+✔ Power BI
+✔ Machine Learning
+✔ Generative AI
+```
 
-`Python` `SQL` `FastAPI` `Streamlit`
+---
 
-<p align="center">
+<!-- 4. ABOUT ME -->
+## 🧠 About Me
 
-<a href="https://github.com/deep121-bit/HIMS-Hospital-Information-Management-System">
-<img src="https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+- 👀 Entry-level data professional building toward **Data Analytics, Business Analysis & Data Science** roles
+- 🎓 **Current Education:** MCA (in progress) @ Chandigarh University · B.Com @ Delhi University
+- 🎯 **Career Goal:** Land a role where I can turn data into decisions, and grow into building AI-powered tools on top of it
+- ❤️ **Passion:** Solving problems with data — from a clean dashboard to a working AI agent
+- 🧪 **Experience:** Virtual job simulations at Deloitte and TCS (via Forage), independent projects, competitive coding
+- 📜 **Certifications:** see the [Certifications](#-certifications) section below
+- 📍 Based in Delhi, India — open to remote international roles too
 
-</p>
+---
 
-</td>
+<!-- 5. TECH STACK -->
+## 🧰 Tech Stack
 
-<td width="50%" valign="top">
+### 🐍 Programming
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
 
-### 📊 CRM Sales Pipeline & Revenue Intelligence
+### 📊 Data Analytics
+![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
+`Power Query` `DAX` `Statistics` `EDA` `Data Cleaning` `Data Visualization` `Dashboard Development` `Business Intelligence`
 
-<img src="assets/screenshots/crm.png" width="100%" alt="CRM Screenshot"/>
+### 📚 Python Libraries
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-444876?style=flat-square)
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
+![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 
-Business Intelligence solution that transforms CRM sales data into actionable revenue insights through SQL and Power BI dashboards.
+### 🧠 Machine Learning
+`Regression` `Classification` `Clustering` `Time Series` `Feature Engineering` `Model Evaluation`
+![XGBoost](https://img.shields.io/badge/XGBoost-025FA4?style=flat-square)
+![LightGBM](https://img.shields.io/badge/LightGBM-02569B?style=flat-square)
 
-**✨ Key Features**
+### 🤖 Deep Learning
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+`CNN` `LSTM`
 
-- Sales Pipeline Analysis
-- Revenue Dashboard
-- KPI Monitoring
-- Customer Insights
-- Sales Performance
+### 💬 NLP
+`NLTK` `spaCy` `Transformers` `Sentence-Transformers`
+![HuggingFace](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 
-**🛠 Tech Stack**
+### ⚡ Generative AI
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square)
+`LangGraph` `LlamaIndex` `Ollama`
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+`Prompt Engineering` `AI Agents` `RAG` `Vector Databases` `Embeddings`
 
-`Python`
-`SQL`
-`MySQL`
-`Power BI`
-`DAX`
+### 🗄 Databases
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 
-<p align="center">
+### 🌐 Backend
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+`REST APIs`
 
-<a href="https://github.com/deep121-bit/CRM-Sales-Pipeline-Revenue-Intelligence">
-<img src="https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+### ☁ Tools
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 
-</p>
+---
 
-</td>
+<!-- 6. FEATURED PROJECTS -->
+## 📌 Featured Projects
 
-</tr>
+### 🏥 HIMS — Hospital Information Management System
 
-<tr>
+<img src="assets/screenshots/hims.png" alt="HIMS screenshot" width="100%">
 
-<td width="50%" valign="top">
+Full hospital workflow system covering patient records, appointments, and billing in one place.
+
+**Features**
+- Patient registration and medical record tracking
+- Appointment scheduling with doctor availability
+- Billing and invoice generation
+
+**Tech Stack:** `Python` `SQL` `FastAPI`
+
+[![Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github)](#) [![Demo](https://img.shields.io/badge/Live-Demo-7C3AED?style=flat-square)](#)
+
+---
+
+### 📊 CRM — Sales Pipeline & Revenue Intelligence
+
+<img src="assets/screenshots/crm.png" alt="CRM screenshot" width="100%">
+
+Interactive dashboard that turns raw CRM exports into pipeline health and revenue insights.
+
+**Features**
+- Deal-stage funnel and conversion-rate tracking
+- Revenue forecasting by rep and region
+- Drill-down filters built with DAX measures
+
+**Tech Stack:** `SQL` `Power BI` `DAX`
+
+[![Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github)](#) [![Demo](https://img.shields.io/badge/Live-Demo-7C3AED?style=flat-square)](#)
+
+---
 
 ### 📈 Sales Profitability Analytics
 
-<img src="assets/screenshots/sales.png" width="100%" alt="Sales Analytics"/>
+<img src="assets/screenshots/sales.png" alt="Sales analytics screenshot" width="100%">
 
-End-to-end business analytics project focused on profitability, revenue trends, and performance optimization.
+End-to-end analysis of margin and profitability drivers across product lines and regions.
 
-**✨ Key Features**
+**Features**
+- Profitability breakdown by product, region, and channel
+- Cost-vs-revenue trend analysis
+- Automated monthly summary export
 
-- Profit Analysis
-- Sales Dashboard
-- KPI Reporting
-- Revenue Insights
-- Business Analytics
+**Tech Stack:** `Python` `Pandas` `Power BI`
 
-**🛠 Tech Stack**
+[![Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github)](#) [![Demo](https://img.shields.io/badge/Live-Demo-7C3AED?style=flat-square)](#)
 
-`Python`
-`Pandas`
-`SQL`
-`Power BI`
-
-<p align="center">
-
-<a href="https://github.com/deep121-bit/Sales-Profitability-Analytics">
-<img src="https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-</p>
-
-</td>
-
-<td width="50%" valign="top">
+---
 
 ### 💪 Fitness Membership Analytics Dashboard
 
-<img src="assets/screenshots/fitness.png" width="100%" alt="Fitness Dashboard"/>
+<img src="assets/screenshots/fitness.png" alt="Fitness analytics screenshot" width="100%">
 
-Interactive Power BI dashboard providing insights into member engagement, attendance, revenue, and customer retention.
+Churn and engagement analysis for a gym's membership base.
 
-**✨ Key Features**
+**Features**
+- Member churn prediction and at-risk segmentation
+- Class attendance and engagement heatmaps
+- Retention-focused dashboard for gym managers
 
-- Churn Analysis
-- Attendance Trends
-- Revenue Dashboard
-- Customer Segmentation
-- KPI Monitoring
+**Tech Stack:** `Python` `scikit-learn` `Matplotlib`
 
-**🛠 Tech Stack**
+[![Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github)](#) [![Demo](https://img.shields.io/badge/Live-Demo-7C3AED?style=flat-square)](#)
 
-`Python`
-`Power BI`
-`Machine Learning`
-`Pandas`
-
-<p align="center">
-
-<a href="https://github.com/deep121-bit/fitness-membership-analytics-dashboard">
-<img src="https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-</p>
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%" valign="top">
+---
 
 ### 📰 Fake News Predictor
 
-<img src="assets/screenshots/fake-news.png" width="100%" alt="Fake News Predictor"/>
+<img src="assets/screenshots/ai-agent.png" alt="Fake news predictor screenshot" width="100%">
 
-Machine Learning & NLP project that classifies news articles as real or fake using text preprocessing and predictive modeling.
+NLP classifier that flags likely-fake news articles from headline and body text.
 
-**✨ Key Features**
+**Features**
+- Text preprocessing and TF-IDF / embedding-based features
+- Classification model with precision/recall evaluation
+- Simple web interface for pasting an article and getting a verdict
 
-- NLP Pipeline
-- Text Cleaning
-- Prediction Model
-- Feature Engineering
-- Classification
+**Tech Stack:** `Python` `scikit-learn` `NLTK` `Streamlit`
 
-**🛠 Tech Stack**
+[![Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github)](#) [![Demo](https://img.shields.io/badge/Live-Demo-7C3AED?style=flat-square)](#)
 
-`Python`
-`NLP`
-`Scikit-learn`
-`Pandas`
+---
+
+<!-- 7. GITHUB ANALYTICS -->
+## 📊 GitHub Analytics
 
 <p align="center">
-
-<a href="https://github.com/deep121-bit/Fake-News-Predictor">
-<img src="https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
+  <img src="https://github-readme-stats.vercel.app/api?username=deep121-bit&show_icons=true&theme=radical&hide_border=true" height="165">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=deep121-bit&theme=radical&hide_border=true" height="165">
 </p>
 
-</td>
-
-<td width="50%" align="center" valign="middle">
-
-# 🚀 Coming Soon
-
-### AI Projects
-
-🤖 AI Data Analyst Agent
-
-🧠 Multi-Agent Systems
-
-📄 AI Resume Analyzer
-
-💬 RAG Chatbot
-
-⚡ LangGraph Workflows
-
-</td>
-
-</tr>
-
-</table>
-
----
-
----
-
-# 💻 Tech Stack
-
-<table>
-<tr>
-
-<td valign="top" width="33%">
-
-## 📊 Data Analytics
-
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-
-![Power%20BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-
-**Skills**
-
-- Data Cleaning
-- Data Visualization
-- Dashboard Development
-- Power Query
-- DAX
-- Business Intelligence
-- Data Modeling
-- Statistics
-- Exploratory Data Analysis
-
-</td>
-
-<td valign="top" width="33%">
-
-## 🐍 Programming
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-
----
-
-## 📚 Libraries
-
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
-
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy)
-
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
-
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly)
-
-![Seaborn](https://img.shields.io/badge/Seaborn-4B77BE?style=for-the-badge)
-
-![Scikit--Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn)
-
-</td>
-
-<td valign="top" width="33%">
-
-## 🤖 AI & Machine Learning
-
-- Machine Learning
-- Deep Learning
-- NLP
-- Generative AI
-- AI Agents
-- LangChain
-- LangGraph
-- RAG
-- Prompt Engineering
-- Vector Databases
-
----
-
-## 🧠 Frameworks
-
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow)
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch)
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi)
-
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask)
-
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)
-
-</td>
-
-</tr>
-</table>
-
----
-
-# 🗄 Databases
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deep121-bit&layout=compact&theme=radical&hide_border=true" height="165">
+</p>
 
 <p align="center">
-
-<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,sqlite"/>
-
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=deep121-bit&theme=react-dark&hide_border=true">
 </p>
 
 ---
 
-# ☁ Development Tools
+<!-- 8. GITHUB ACHIEVEMENTS -->
+## 🏆 GitHub Achievements
 
 <p align="center">
-
-<img src="https://skillicons.dev/icons?i=git,github,docker,linux,vscode,pycharm,jupyter"/>
-
+  <img src="https://github-profile-trophy.vercel.app/?username=deep121-bit&theme=radical&no-frame=true&row=1&column=7">
 </p>
 
----
+![Certifications](https://img.shields.io/badge/Certifications-3-7C3AED?style=for-the-badge)
+![Simulations](https://img.shields.io/badge/Job_Simulations-Deloitte_%7C_TCS-00E5FF?style=for-the-badge)
 
 ---
 
-# 📊 GitHub Analytics
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=deep121-bit&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=deep121-bit&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</div>
-
-<br>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=deep121-bit&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
-
-# 📈 Contribution Graph
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=deep121-bit&theme=tokyo-night&hide_border=true"/>
-
-</div>
-
----
-
-# 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=deep121-bit&theme=tokyonight&column=4&margin-w=15&margin-h=15&no-frame=true"/>
-
-</div>
-
----
-
-# 📈 Weekly Development Breakdown
-
-<!--START_SECTION:waka-->
-
-```text
-Python           ████████████████████░░   82%
-SQL              ███████░░░░░░░░░░░░░░░   10%
-Power BI         ████░░░░░░░░░░░░░░░░░░    5%
-Markdown         ██░░░░░░░░░░░░░░░░░░░░    2%
-Other            ░░░░░░░░░░░░░░░░░░░░░░    1%
-```
-
-<!--END_SECTION:waka-->
-
----
-
-# 🚀 Current Focus
-
-```text
-🟢 Learning Generative AI
-🟢 Building AI Agents
-🟢 LangGraph Workflows
-🟢 Advanced SQL
-🟢 Power BI Dashboards
-🟢 Machine Learning
-🟢 FastAPI Development
-```
-
----
-
-# 📜 Certifications
-
-🏅 Career Essentials in Data Analysis
-Microsoft + LinkedIn Learning
-
-🏅 Deloitte Data Analytics Job Simulation
-Forage
-
-🏅 TCS Data Analytics Job Simulation
-Forage
-
-🏅 Chandigarh University
-Master of Computer Applications (Pursuing)
-
----
-
-# 🎯 2026 Goals
-
-✅ Build 10+ Professional Data Projects
-
-✅ Master Power BI
-
-✅ Master SQL
-
-✅ Build Production AI Agents
-
-✅ Open Source Contributions
-
-✅ Secure Data Scientist / AI Engineer Role
-
----
-
-# 📬 Connect With Me
-
-<p align="center">
-
-<a href="https://github.com/deep121-bit">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/in/deepak-maurya-522a34384/">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="mailto:deepmaurya302@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-</p>
-
----
-
-# 🐍 Contribution Snake
+<!-- 9. CONTRIBUTION SNAKE -->
+## 🐍 Contribution Snake
 
 <picture>
-
-<source media="(prefers-color-scheme: dark)"
-srcset="https://raw.githubusercontent.com/deep121-bit/deep121-bit/output/github-contribution-grid-snake-dark.svg"/>
-
-<source media="(prefers-color-scheme: light)"
-srcset="https://raw.githubusercontent.com/deep121-bit/deep121-bit/output/github-contribution-grid-snake.svg"/>
-
-<img alt="github contribution snake"
-src="https://raw.githubusercontent.com/deep121-bit/deep121-bit/output/github-contribution-grid-snake.svg"/>
-
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/deep121-bit/deep121-bit/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/deep121-bit/deep121-bit/output/github-contribution-grid-snake.svg">
+  <img alt="contribution snake animation" src="https://raw.githubusercontent.com/deep121-bit/deep121-bit/output/github-contribution-grid-snake.svg">
 </picture>
+
+<sub>Dark and light versions auto-switch with your GitHub theme — both are generated daily by <code>snake.yml</code>.</sub>
 
 ---
 
+<!-- 10. CERTIFICATIONS -->
+## 📜 Certifications
+
+- 🎓 **Microsoft Career Essentials in Data Analysis** — Microsoft / LinkedIn Learning
+- 🎓 **Deloitte Data Analytics Job Simulation** — Forage
+- 🎓 **TCS Data Analytics Job Simulation** — Forage
+- ⏳ **Future Certifications** — *(add as you complete them)*
+
+---
+
+<!-- 11. CONNECT WITH ME -->
+## 🔗 Connect With Me
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/deep121-bit)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-LINKEDIN)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
+[![Resume](https://img.shields.io/badge/Resume-00E5FF?style=for-the-badge&logo=readdotcv&logoColor=black)](#)
+[![Portfolio](https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](#)
+
+---
+
+<!-- 12. FOOTER -->
 <div align="center">
 
-## ⭐ Thanks for Visiting ⭐
-
-### If you like my work, don't forget to ⭐ my repositories.
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,100:00C9FF&height=120&section=footer"/>
+**"Building Intelligent Systems with Data & AI"**
 
 </div>
