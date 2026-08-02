@@ -58,7 +58,7 @@
     <circle cx="1080" cy="230" r="118" fill="url(#avatarGlow)" opacity="0.5">
       <animate attributeName="r" values="112;122;112" dur="2.6s" repeatCount="indefinite"/>
     </circle>
-    <image href="avatar.png" x="970" y="120" width="220" height="220"
+    <image href="https://raw.githubusercontent.com/deep121-bit/deep121-bit/main/assets/images/avatar.png" x="970" y="120" width="220" height="220"
            clip-path="url(#avatarClip)" preserveAspectRatio="xMidYMid slice"/>
     <circle cx="1080" cy="230" r="110" fill="none" stroke="#00E5FF" stroke-width="3"/>
     <!-- hologram scan sweep clipped to avatar -->
