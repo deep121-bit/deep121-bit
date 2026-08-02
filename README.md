@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
 
 <picture>
@@ -224,3 +225,21 @@ Churn and engagement analysis for a gym membership dataset.
 **"Building Intelligent Systems with Data & AI"**
 
 </div>
+=======
+## Hi there 👋
+
+<!--
+**deep121-bit/deep121-bit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+>>>>>>> da2b2dc42221180edced37bb6cf4a7b3fe2f8f66
