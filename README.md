@@ -2,8 +2,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/avtar.png/banner.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="assets/avtar.png/banner-light.svg?v=1">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/image/banner.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="assets/image/banner-light.svg?v=1">
   <img alt="Deepak Maurya banner" src="assets/images/banner.svg?v=1" width="100%">
 </picture>
 
