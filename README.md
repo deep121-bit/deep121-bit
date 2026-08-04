@@ -18,53 +18,86 @@
 
 </div>
 
-👋 Hi, I'm Deepak Maurya
 
-Data Analyst | AI Engineer | Generative AI Developer
+---
 
-Turning raw data into business decisions with AI.
+## 👋 Hi, I'm Deepak Maurya
+**Data Analyst · AI Engineer · Generative AI Developer**
 
-💡 About Me
+> Turning raw data into decisions, and building intelligent systems with AI.
 
-🎓 MCA (Online) – Chandigarh University
+---
 
-🎓 B.Com – University of Delhi
+## 💡 Quick Snapshot
+- 🎓 MCA (Online) – Chandigarh University  
+- 🎓 B.Com – University of Delhi  
+- 💼 Looking for Data Analyst / Data Scientist / AI Engineer roles  
+- 🌍 Open to Remote & International Opportunities  
+- 🏆 Experience: Deloitte & TCS job simulations (Forage), independent projects, competitive coding  
+- 📜 Certifications: IBM Generative AI Skills · Microsoft Career Essentials · Deloitte & TCS Simulations  
 
-💼 Looking for Data Analyst / Data Scientist / AI Engineer roles
+---
 
-🌍 Open to Remote & International Opportunities
+## 🛠 Tech Stack
+- **Languages:** Python · SQL · R  
+- **Data:** Pandas · NumPy · Power BI · Tableau · Excel · DAX  
+- **AI/ML:** Scikit-learn · TensorFlow · PyTorch · LangChain · LangGraph · LlamaIndex · RAG  
+- **Backend:** FastAPI · Flask · Streamlit  
+- **Database:** MySQL · PostgreSQL · MongoDB · SQLite  
+- **Tools:** Git · GitHub · Docker · Linux · VS Code · Jupyter  
 
-🛠 Tech Stack
+---
 
-Languages: Python • SQL • R
+## 📌 Featured Projects
+### 🏥 Hospital Information Management System (HIMS)
+- Automated patient records, appointments, and billing  
+- **Impact:** Reduced manual workload by 40% in simulated workflows  
+- **Tech:** Python · SQL · FastAPI  
 
-Data: Pandas • NumPy • Power BI • Tableau • Excel • DAX
+### 📊 CRM — Sales Pipeline & Revenue Intelligence
+- Dashboard for pipeline health & revenue forecasting  
+- **Impact:** Enabled 25% faster deal‑stage analysis in test datasets  
+- **Tech:** SQL · Power BI · DAX  
 
-AI/ML: Scikit-learn • TensorFlow • PyTorch • LangChain • LangGraph • LlamaIndex • RAG
+### 📈 Sales Profitability Analytics
+- Margin & profitability analysis across product lines  
+- **Impact:** Identified top 3 drivers of margin erosion in demo data  
+- **Tech:** Python · Pandas · Power BI  
 
-Backend: FastAPI • Flask • Streamlit
+### 💪 Fitness Membership Analytics Dashboard
+- Churn prediction & engagement heatmaps  
+- **Impact:** Highlighted 15% of members at risk of churn  
+- **Tech:** Python · scikit‑learn · Matplotlib  
 
-Database: MySQL • PostgreSQL • MongoDB • SQLite
+### 📰 Fake News Predictor
+- NLP classifier for detecting fake news articles  
+- **Impact:** Achieved 87% precision on validation set  
+- **Tech:** Python · scikit‑learn · NLTK · Streamlit  
 
-Tools: Git • GitHub • Docker • Linux • VS Code • Jupyter
+---
 
-⭐ Featured Projects
+## 📜 Certifications
+- 🎓 IBM Generative AI Skills for Data Scientists (DUCAT India, July 2026)  
+- 🎓 Microsoft Career Essentials in Data Analysis  
+- 🎓 Deloitte Data Analytics Job Simulation (Forage)  
+- 🎓 TCS Data Analytics Job Simulation (Forage)  
 
-🏥 Hospital Information Management System
+---
 
-📊 CRM Sales Pipeline & Revenue Intelligence
+## 🏆 GitHub Achievements
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=deep121-bit&theme=radical&no-frame=true&row=1&column=7">
+</p>
 
-📈 Sales Profitability Analytics
+---
 
-💪 Fitness Membership Analytics Dashboard
+## 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=deep121-bit&show_icons=true&theme=radical&hide_border=true" height="165">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=deep121-bit&theme=radical&hide_border=true" height="165">
+</p>
 
-📰 Fake News Predictor
-
-📊 GitHub Stats
-
-
-
-
+---
 
 
 
