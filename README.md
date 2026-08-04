@@ -15,10 +15,19 @@
 <img src="assets/images/avatar.png" alt="Deepak Maurya Avatar" width="180" style="border-radius:50%;border:3px solid #00E5FF;">
 
 <br/><br/>
+<<<<<<< HEAD
 [![Profile Views](https://komarev.com/ghpvc/?username=deep121-bit&color=7C3AED&style=flat-square&label=Profile+Views)](https://github.com/deep121-bit)
 [![GitHub](https://img.shields.io/badge/GitHub-deep121--bit-181717?style=flat-square&logo=github)](https://github.com/deep121-bit)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Deepak%20Maurya-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deepak-maurya-522a34384/)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:deepmaurya302@gmail.com)
+=======
+
+![Profile views](https://komarev.com/ghpvc/?username=deep121-bit&color=7C3AED&style=flat-square&label=Profile+Views)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github)](https://github.com/deep121-bit)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/https://www.linkedin.com/in/deepak-maurya-522a34384/)
+[![Email](https://img.shields.io/badge/Email-Contact-FF4D8D?style=flat-square&logo=gmail&logoColor=white)](mailto:deepmaurya302@.com)
+
+>>>>>>> d72edb8 (Update README social badges)
 </div>
 
 ---
