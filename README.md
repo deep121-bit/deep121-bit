@@ -13,9 +13,6 @@
 <img src="assets/images/avatar.png" alt="Deepak Maurya Avatar" width="180">
 
 <br><br>
-
-
-
 </div>
 
 
