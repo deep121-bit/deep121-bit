@@ -11,12 +11,8 @@
 
 <br/>
 
-<<<<<<< HEAD
-<img src="assets/animations/lanyard.svg?v=202632" alt="Deepak Maurya ID badge" width="220">
-=======
 <!-- Avatar Image -->
 <img src="assets/images/avatar.png" alt="Deepak Maurya Avatar" width="180" style="border-radius:50%;border:3px solid #00E5FF;">
->>>>>>> 0789723 (Updated README with avatar and recruiter-friendly details)
 
 <br/><br/>
 
@@ -36,35 +32,12 @@
 
 ---
 
-<<<<<<< HEAD
-<!-- 3. ANIMATED TERMINAL -->
-## 💻 Terminal
-
-<div align="center">
-<img src="assets/animations/terminal.svg?v=202632" alt="terminal: whoami, loading skills" width="560">
-</div>
-
-```text
-$ whoami
-Deepak Maurya
-
-Loading Skills...
-██████████████████ 100%
-
-✔ Python
-✔ SQL
-✔ Power BI
-✔ Machine Learning
-✔ Generative AI
-```
-=======
 ## 💡 Quick Snapshot
 - 🎓 MCA (in progress) @ Chandigarh University · B.Com @ Delhi University  
 - 📍 Delhi, India — open to remote international roles  
 - 🎯 Career Goal: Entry‑level Data/AI role with growth into AI‑powered product development  
 - 🏆 Experience: Deloitte & TCS job simulations (Forage), independent projects, competitive coding  
 - 📜 Certifications: IBM Generative AI Skills · Microsoft Career Essentials · Deloitte & TCS Simulations  
->>>>>>> 0789723 (Updated README with avatar and recruiter-friendly details)
 
 ---
 
