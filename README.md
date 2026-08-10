@@ -3,9 +3,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/images/banner.svg?v=202632">
-  <source media="(prefers-color-scheme: light)" srcset="assets/images/banner-light.svg?v=202632">
-  <img alt="Deepak Maurya banner" src="assets/images/banner.svg?v=202632" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/images/banner.svg?v=202633">
+  <source media="(prefers-color-scheme: light)" srcset="assets/images/banner-light.svg?v=202633">
+  <img alt="Deepak Maurya banner" src="assets/images/banner.svg?v=202633" width="100%">
 </picture>
 
 <br/>
